@@ -1,0 +1,29 @@
+name: isar_test
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  collection: ^1.17.1
+  flutter:
+    sdk: flutter
+  isar: ^4.0.0-dev.5
+  isar_flutter_libs: ^4.0.0-dev.5
+  path: ^1.8.3
+  path_provider: ^2.0.15
+  uuid: ^3.0.7
+
+dev_dependencies:
+  build_runner: ^2.4.6
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  # isar_generator:
+
+# dependency_overrides:
+#   analyzer: ^5.2.0
+
+flutter:
+  uses-material-design: true
